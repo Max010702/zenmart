@@ -220,10 +220,11 @@
 .shop_page .category_top_frame .container {
   height: 50px;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .shop_page .category_top_frame .container div {
-  width: 10%;
+  width: auto;
   display: flex;
   align-items: center;
   font-family: var(--font);
@@ -547,6 +548,7 @@
 }
 
 .laptop_product_boxes .product_info {
+  position: relative;
   width: 262px;
   height: auto;
 }
