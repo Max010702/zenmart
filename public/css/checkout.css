@@ -1,0 +1,358 @@
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+}
+
+.checkout_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .page_router {
+    font-family: Jost;
+    font-style: Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .p_checkout {
+    margin: 60px 0;
+    color: rgba(4, 30, 66, 1);
+
+    font-family: Jost;
+    font-style: Medium;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .filling_form_frame {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .filling_form_left {
+        position: relative;
+        width: 858px;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        .billing_details {
+          margin-bottom: 20px;
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 29px;
+        }
+
+        .name_input_boxes {
+          position: relative;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .first_name {
+            position: relative;
+            width: 413px;
+            height: auto;
+
+            p {
+              color: rgba(4, 30, 66, 1);
+
+              font-family: Jost;
+              font-style: Medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+            }
+
+            input {
+              width: 100%;
+              height: 55px;
+              margin-top: 5px;
+              box-sizing: border-box;
+              border: 1px solid rgba(234, 234, 234, 1);
+              border-radius: 6px;
+              background: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+
+        .company_name_box {
+          position: relative;
+          margin-top: 20px;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: column;
+
+          p {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          input {
+            margin-top: 5px;
+            width: 100%;
+            height: 55px;
+
+            box-sizing: border-box;
+            border: 1px solid rgba(234, 234, 234, 1);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 1);
+          }
+        }
+
+        .country_box {
+          position: relative;
+          margin-top: 20px;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: column;
+
+          p {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          select {
+            padding: 0 23px 0 15px;
+            margin-top: 5px;
+            width: 100%;
+            height: 55px;
+
+            box-sizing: border-box;
+            border: 1px solid rgba(234, 234, 234, 1);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 1);
+            color: rgba(98, 105, 116, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+          }
+        }
+      }
+
+      .form_right_main {
+        position: relative;
+        width: 422px;
+        height: auto;
+
+        .filling_form_right {
+          position: relative;
+          padding: 30px 28px;
+          width: 422px;
+          height: 378px;
+
+          border: 1px solid #f3f5f6;
+          border-radius: 6px;
+          box-sizing: border-box;
+
+          .cart_total_title {
+            margin-bottom: 20px;
+            width: 100%;
+            height: auto;
+
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 29px;
+          }
+
+          .items_price_box {
+            position: relative;
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .price_box_left {
+              margin-bottom: 42px;
+              width: auto;
+              height: auto;
+
+              display: flex;
+              flex-direction: column;
+
+              p {
+                color: rgba(4, 30, 66, 1);
+
+                font-family: Jost;
+                font-style: Regular;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 35px;
+              }
+            }
+
+            .price_box_right {
+              width: auto;
+              height: auto;
+
+              display: flex;
+              flex-direction: column;
+
+              p {
+                font-family: Jost;
+                font-style: Regular;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 35px;
+                letter-spacing: 0%;
+                text-align: right;
+              }
+            }
+          }
+
+          .total_end {
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-top: 1px solid #f3f5f6;
+
+            strong {
+              color: rgba(4, 30, 66, 1);
+
+              font-family: Jost;
+              font-style: Medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 35px;
+            }
+          }
+
+          .proceed_button_box {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            padding: 15px;
+
+            box-sizing: border-box;
+            border: 1px solid rgba(245, 195, 75, 1);
+            border-radius: 6px;
+            box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+            background: rgba(245, 195, 75, 1);
+
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: center;
+          }
+        }
+
+        .agree_privacy_button {
+          position: relative;
+          margin-top: 30px;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: row;
+
+          .privacy_box {
+            margin-right: 13px;
+            width: 15px;
+            height: 16px;
+            box-sizing: border-box;
+            border: 2px solid rgba(4, 30, 66, 1);
+            border-radius: 4px;
+          }
+
+          span {
+            width: 394px;
+            height: auto;
+
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+
+        .proceed_button_box {
+          width: 100%;
+          height: 52px;
+          margin-top: 30px;
+          padding: 15px;
+
+          box-sizing: border-box;
+          border: 1px solid rgba(245, 195, 75, 1);
+          border-radius: 6px;
+          box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+          background: rgba(245, 195, 75, 1);
+
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
