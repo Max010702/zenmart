@@ -1,0 +1,840 @@
+.choosenProduct_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+}
+
+.container .product_pagination_box {
+  margin-top: 100px;
+  width: 160px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container .product_pagination_main {
+  width: 160px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .product_pagination_main .pagination_dot {
+  width: 82px;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.container .dot.active {
+  border: 2px solid #112137;
+}
+
+.container .dot div {
+  width: 4px;
+  height: 4px;
+
+  background: #112137;
+  border-radius: 50%;
+}
+
+.choosenProduct_page .category_top_frame {
+  position: relative;
+  padding: 14px 0;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.category_top_frame .container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category_top_frame .container div {
+  width: auto;
+  display: flex;
+  align-items: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.category_top_frame .container div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.choosenProduct_page .macbook_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.macbook_frame .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.macbook_frame .container .macbook_left {
+  position: relative;
+  width: 631px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.container .macbook_image {
+  position: relative;
+  width: 631px;
+  height: 686px;
+
+  background-image: url(../images/products/macbook_16.png);
+}
+
+.macbook_left .macbook_image .full_screen {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+
+  top: 0;
+  right: 0;
+}
+
+.container .macbook_left p {
+  display: flex;
+  justify-content: center;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.macbook_left .small_macbook_img {
+  margin-top: 30px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.macbook_left .small_macbook_img div {
+  margin-right: 18px;
+
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.macbook_left .small_macbook_img div img {
+  padding: 10px 9px;
+  width: 55px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.container .macbook_right {
+  position: relative;
+  width: 637px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  .review_box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+
+    .macbook_review {
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        margin-right: 10px;
+        padding-right: 10px;
+        color: rgba(98, 105, 116, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        text-transform: uppercase;
+        border-right: 1px solid rgba(234, 234, 234, 1);
+      }
+
+      img {
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+      }
+
+      span {
+        margin-left: 5px;
+        color: rgba(98, 105, 116, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+    }
+
+    .macbook_title {
+      margin: 18px 0;
+      width: 100%;
+      height: auto;
+
+      color: rgba(4, 30, 66, 1);
+
+      font-family: Jost;
+      font-style: Medium;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 32px;
+    }
+  }
+
+  .macbook_characteristics {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    .macbook_price {
+      position: relative;
+      width: auto;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        width: auto;
+        height: auto;
+
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Medium;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 38px;
+      }
+
+      span {
+        margin-left: 10px;
+        color: rgba(98, 105, 116, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-decoration-line: line-through;
+      }
+    }
+
+    .mac_info {
+      position: relative;
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+
+      .mac_info_left {
+        width: 196px;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        p {
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 30px;
+        }
+      }
+
+      .mac_info_right {
+        margin-left: 44px;
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        span {
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Regular;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+
+  .button_boxes {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+
+    .number_box {
+      position: relative;
+      padding: 11px;
+      width: auto;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      box-sizing: border-box;
+      border: 1px solid rgba(234, 234, 234, 1);
+      border-radius: 60px;
+      background: rgba(255, 255, 255, 1);
+
+      .minus_box {
+        position: relative;
+        width: 35px;
+        height: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+          width: 1px;
+          height: 12px;
+          transform: rotate(-90deg);
+          background: rgba(4, 30, 66, 1);
+        }
+      }
+
+      .minus_box:active {
+        border-radius: 30px;
+        background: rgba(243, 245, 246, 1);
+      }
+
+      p {
+        margin: 0px 25px;
+
+        display: flex;
+        align-items: center;
+
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+
+      .plus_box {
+        position: relative;
+        width: 35px;
+        height: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+
+        .horizontal_line {
+          width: 1px;
+          height: 12px;
+          transform: rotate(-90deg);
+          background: rgba(4, 30, 66, 1);
+        }
+
+        .vertical_line {
+          position: absolute;
+          width: 1px;
+          height: 12px;
+          background: rgba(4, 30, 66, 1);
+        }
+      }
+
+      .plus_box:active {
+        border-radius: 30px;
+        background: rgba(243, 245, 246, 1);
+      }
+    }
+
+    .add_to_cart {
+      padding: 15px 50px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      border: none;
+      border-radius: 60px;
+      background: rgba(245, 195, 75, 1);
+
+      color: rgba(4, 30, 66, 1);
+
+      font-family: Jost;
+      font-style: Medium;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+    }
+
+    .buy_now {
+      padding: 15px 57px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      border: none;
+      border-radius: 60px;
+      background: rgba(68, 50, 151, 1);
+
+      color: rgba(255, 255, 255, 1);
+
+      font-family: Jost;
+      font-style: Medium;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 22px;
+    }
+
+    .like_img {
+      width: 18.74px;
+      height: 16px;
+    }
+
+    .statistics_img {
+      /* Vector */
+      width: 18px;
+      height: 12px;
+    }
+  }
+
+  .more_info_box {
+    position: relative;
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eaeaea;
+
+    .info_box {
+      position: relative;
+      width: auto;
+      height: auto;
+
+      display: flex;
+      flex-direction: column;
+
+      p {
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+
+    .media_box {
+      margin-top: 20px;
+      width: auto;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        margin-right: 10px;
+
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+
+      i {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .shopping_boxes {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    .shipping_box {
+      margin-bottom: 22px;
+      width: auto;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+
+      img {
+        margin-right: 11px;
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.choosenProduct_page .info_category_frame {
+  position: relative;
+  margin-top: 72px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+
+  .container {
+    flex-direction: column;
+
+    .category_boxes {
+      margin-right: 172px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      div {
+        padding: 19px 0;
+        width: auto;
+        height: auto;
+
+        color: rgba(98, 105, 116, 1);
+
+        font-family: Jost;
+        font-style: Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+      }
+
+      div:hover {
+        color: black;
+        border-bottom: 2px solid black;
+      }
+    }
+  }
+}
+
+.choosenProduct_page .information_box_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  .container {
+    flex-direction: column;
+
+    p {
+      color: rgba(4, 30, 66, 1);
+
+      font-family: Jost;
+      font-style: Regular;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    strong {
+      margin-top: 30px;
+      color: rgba(4, 30, 66, 1);
+
+      font-family: Jost;
+      font-style: Medium;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 29px;
+    }
+
+    span {
+      margin-top: 20px;
+      color: rgba(4, 30, 66, 1);
+
+      font-family: Jost;
+      font-style: Medium;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+
+    ul {
+      margin-bottom: -10px;
+
+      li {
+        margin-left: -23px;
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Regular;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 40px;
+      }
+    }
+  }
+}
+
+.choosenProduct_page .related_product_frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  .container {
+    flex-direction: column;
+
+    .category_top {
+      position: relative;
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Medium;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+    }
+
+    .product_boxes {
+      position: relative;
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+
+      display: flex;
+      flex-direction: row;
+
+      .product_info {
+        width: 220px;
+        border: 1px solid #eaeaea;
+
+        box-sizing: border-box;
+
+        a {
+          width: 179px;
+          height: 190px;
+        }
+
+        .product_text {
+          margin-left: 18px;
+
+          .product_title {
+            color: rgba(98, 105, 116, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+          }
+
+          a .product_name {
+            margin-top: 7px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          .review_box {
+            position: relative;
+            margin-top: 13px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            img {
+              width: 10px;
+              height: 10px;
+              margin-right: 4px;
+            }
+
+            p {
+              margin-left: 2px;
+              color: rgba(98, 105, 116, 1);
+
+              font-family: Jost;
+              font-style: Regular;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 22px;
+            }
+          }
+
+          .price_box {
+            margin-top: 10px;
+            margin-bottom: 20px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            strong {
+              color: rgba(4, 30, 66, 1);
+
+              font-family: Jost;
+              font-style: Medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 28px;
+            }
+
+            p {
+              margin-left: 10px;
+
+              color: rgba(98, 105, 116, 1);
+
+              font-family: Jost;
+              font-style: Regular;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 22px;
+              text-decoration-line: line-through;
+            }
+          }
+        }
+      }
+    }
+  }
+}
