@@ -1,0 +1,374 @@
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+}
+
+.my_page_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+
+    .my_page_left {
+      position: relative;
+      width: 198px;
+      height: auto;
+
+      display: flex;
+      flex-direction: column;
+
+      .my_profile {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(234, 234, 234, 1);
+
+        img {
+          width: 38px;
+          height: 40px;
+        }
+
+        .my_profile_text {
+          margin-left: 10px;
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          p {
+            margin-bottom: 10px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+          }
+        }
+      }
+
+      .profile_details_boxes {
+        position: relative;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        .profile_details {
+          margin-top: 20px;
+          position: relative;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: row;
+
+          img {
+            margin-right: 11px;
+            width: 21px;
+            height: 20x;
+          }
+
+          p {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 20 px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .my_page_right {
+      position: relative;
+      width: 1034px;
+      height: auto;
+
+      display: flex;
+      flex-direction: column;
+
+      .p_account_details {
+        color: rgba(4, 30, 66, 1);
+
+        font-family: Jost;
+        font-style: Medium;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+
+      .category_top {
+        margin-bottom: 10px;
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+
+        p {
+          margin-right: 30px;
+          color: rgba(98, 105, 116, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+
+        .active {
+          color: rgba(4, 30, 66, 1);
+          border-bottom: 2px solid rgba(4, 30, 66, 1);
+        }
+      }
+
+      .text_input {
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .name_input {
+          width: 500px;
+          height: auto;
+
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            margin-bottom: 5px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+
+          input {
+            padding-left: 10px;
+            width: 517px;
+            height: 55px;
+
+            box-sizing: border-box;
+            border: 1px solid rgba(234, 234, 234, 1);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+
+      .button_boxes {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+
+        .update_box {
+          margin-right: 20px;
+          padding: 15px 35px;
+
+          box-sizing: border-box;
+          border: 1px solid rgba(245, 195, 75, 1);
+          border-radius: 6px;
+          box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+          background: rgba(245, 195, 75, 1);
+
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22px;
+        }
+
+        .cancel_box {
+          padding: 15px 35px;
+
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22px;
+        }
+      }
+
+      .text_input_password {
+        position: relative;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        .password_input {
+          position: relative;
+          margin-top: 15px;
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            margin-bottom: 5px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+
+          input {
+            padding-left: 10px;
+            width: 555px;
+            height: 55px;
+
+            box-sizing: border-box;
+            border: 1px solid rgba(234, 234, 234, 1);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 1);
+          }
+        }
+      }
+
+      .confirm_boxes {
+        position: relative;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        border-bottom: 1px solid #f3f5f6;
+
+        strong {
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+        }
+
+        .confirm_title_icon {
+          position: relative;
+          margin-bottom: 20px;
+          width: 100%;
+          height: auto;
+
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          p {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+
+          .icon_box_off {
+            position: relative;
+            width: 58.18px;
+            height: auto;
+
+            .all_box {
+              position: relative;
+              width: 58.18px;
+              height: 30px;
+
+              border-radius: 30px;
+              background: #f3f5f6;
+            }
+
+            .circle_box {
+              position: absolute;
+              left: 3px;
+              top: 3px;
+              width: 25.39px;
+              height: 24px;
+
+              border-radius: 200px;
+              box-shadow: 0px 2px 2px 0px rgba(17, 33, 55, 0.1);
+              background: rgba(255, 255, 255, 1);
+            }
+          }
+
+          .icon_box_on {
+            position: relative;
+            width: 58.18px;
+            height: auto;
+
+            .all_box_on {
+              position: relative;
+              width: 58.18px;
+              height: 30px;
+
+              border-radius: 30px;
+              background: rgba(4, 30, 66, 1);
+            }
+
+            .circle_box_on {
+              position: absolute;
+              right: 3px;
+              top: 3px;
+              width: 25.39px;
+              height: 24px;
+
+              border-radius: 200px;
+              box-shadow: 0px 2px 2px 0px rgba(17, 33, 55, 0.1);
+              background: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
