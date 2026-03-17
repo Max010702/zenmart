@@ -1,0 +1,320 @@
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+}
+
+.small_container {
+  position: relative;
+  width: 1141px;
+  height: auto;
+
+  display: flex;
+}
+
+.about_page_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  .top_img_frame {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .img_first {
+        width: 24.5%;
+        height: auto;
+      }
+
+      .img_second {
+        position: relative;
+        margin-right: 1.5%;
+        width: 24.5%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .img_third {
+        width: 24.5%;
+        height: auto;
+      }
+
+      .img_fourth {
+        position: relative;
+        width: 24.5%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .about_store_frame {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+
+    .small_container {
+      flex-direction: column;
+
+      .small_box_1 {
+        strong {
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 28px;
+          font-weight: 500;
+          line-height: 40px;
+        }
+
+        p {
+          margin-top: 30px;
+          margin-bottom: 25px;
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Medium;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 35px;
+        }
+
+        span {
+          margin-bottom: 30px;
+          color: rgba(4, 30, 66, 1);
+
+          font-family: Jost;
+          font-style: Regular;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+      }
+
+      .small_box_2 {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .our_mission {
+          position: relative;
+          width: 556px;
+          height: auto;
+
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            margin-bottom: 22px;
+
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Medium;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 29px;
+          }
+
+          p {
+            color: rgba(4, 30, 66, 1);
+
+            font-family: Jost;
+            font-style: Regular;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+          }
+        }
+      }
+    }
+  }
+
+  .leaders_frame_boxes {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    .small_container {
+      flex-direction: column;
+
+      strong {
+        margin-bottom: 30px;
+        color: rgba(4, 30, 66, 1);
+
+        font-family: "Jost";
+        font-style: Medium;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+
+      .leaders_photo_boxes {
+        margin-bottom: 60px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(234, 234, 234, 1);
+
+        .leader1_box {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 60px;
+
+          p {
+            margin-top: 20px;
+            margin-bottom: 5px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: "Jost";
+            font-style: Medium;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+          }
+
+          span {
+            color: rgba(98, 105, 116, 1);
+
+            font-family: "Jost";
+            font-style: Regular;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+          }
+        }
+
+        .leader2_box {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+
+          .leader2_img {
+            position: relative;
+            width: 265.58px;
+            height: 330px;
+            background-image: url(../images/other/leader2.png);
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            i {
+              margin-right: 20px;
+            }
+          }
+
+          p {
+            margin-top: 20px;
+            margin-bottom: 5px;
+            color: rgba(4, 30, 66, 1);
+
+            font-family: "Jost";
+            font-style: Medium;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+          }
+
+          span {
+            color: rgba(98, 105, 116, 1);
+
+            font-family: "Jost";
+            font-style: Regular;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .why_choose_frame {
+    position: relative;
+    margin-bottom: 450px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    .small_container {
+      flex-direction: column;
+
+      .why_choose_title {
+        margin-bottom: 30px;
+        color: rgba(4, 30, 66, 1);
+
+        font-family: "Jost";
+        font-style: Medium;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 40px;
+      }
+
+      .why_choose_wrapper {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .why_choose_box {
+          width: auto;
+          height: auto;
+
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          strong {
+            margin: 20px 0 7px 0;
+          }
+        }
+      }
+    }
+  }
+}
