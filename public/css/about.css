@@ -1,11 +1,3 @@
-.container {
-  position: relative;
-  width: 1320px;
-  height: auto;
-
-  display: flex;
-}
-
 .small_container {
   position: relative;
   width: 1141px;
