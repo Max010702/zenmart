@@ -14,7 +14,7 @@
     margin-bottom: 570px;
     padding: 52px 67px;
     width: 744px;
-    height: 831px;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     }
 
     .input_box {
-      margin-top: 25px;
+      margin-bottom: 15px;
       width: 100%;
       height: auto;
 
@@ -45,7 +45,7 @@
       flex-direction: column;
 
       p {
-        margin-bottom: 15px;
+        margin-bottom: 6px;
         color: rgba(4, 30, 66, 1);
 
         font-family: "Jost";
